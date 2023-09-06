@@ -4,13 +4,82 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        * {
+            margin: 0;
+            padding: 0;
+            gap: 0;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th {
+            font-weight: normal;
+            text-align: start;
+        }
+        .row1 {
+            /* border-bottom: 1px solid black; */
+            background-color: #c0504d;
+            color: white;
+            /* font-weight: lighter; */
+        }
+        .row2 {
+            background-color: #da9694;
+            color: white;
+        }
+        .row3 {
+            background-color: #f2dcdb;
+            color: black;
+        }
+        .row4 {
+            background-color: #d9d9d9;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<table>
+        <thead class="row1">
+            <th>Part</th>
+            <th>XS</th>
+            <th>S</th>
+            <th>M</th>
+            <th>L</th>
+            <th>XL</th>
+        </thead>
+        <tbody>
+            <tr class="row2">
+                <td>Waist</td>
+                <td>25</td>
+                <td>28</td>
+                <td>30</td>
+                <td>31</td>
+                <td>32</td>
+            </tr>
+            <tr class="row3">
+                <td>Chest</td>
+                <td>34</td>
+                <td>34</td>
+                <td>38</td>
+                <td>40</td>
+                <td>41</td>
+            </tr>
+            <tr class="row4">
+                <td>Sleeve</td>
+                <td>23</td>
+                <td>24</td>
+                <td>24</td>
+                <td>25</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
